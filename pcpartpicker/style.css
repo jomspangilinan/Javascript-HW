@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav__logoWrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center; 
+}
+
+.logo{
+    display: block;
+    line-height: 0;
+    width: 180px;
+    height: 42px;
+    border: 3px solid #333;
+}
+
+
+.list-unstyled {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none; 
+}
+.padding{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.nav-container{
+    display: grid;
+    border: 3px solid #333;
+    background-color: #12131E;
+}
+
+.nav__wrapper{
+    display: grid;
+    height: 56px;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+.box {
+    border: 3px solid #333;
+    max-width: 100%;
+  }
+
+
+li
+{
+    list-style:none;
+}
+.header-bottom {
+    height: 54px;
+    background-color: #191B2B;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    gap: 10px 10px;
+}
+
+.button1
+{
+    width: 164px;
+    height: 53px;
+}
+.button2
+{
+    width: 164px;
+    height: 53px;
+}
+.button3
+{
+    width: 164px;
+    height: 53px;
+}
+.button4
+{
+    width: 164px;
+    height: 53px;
+}
+.button5
+{
+    width: 164px;
+    height: 53px;
+}
+.box {
+    border: 3px solid #333;
+    max-width: 100%;
+  }
+
+
+.buildguides {
+    height: 622px;
+    background-color: #424448;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding-left: 7%;
+    margin-left: auto; 
+}
+.build_button
+{
+    background-color: #2c85c5;
+    color: #ffffff;
+    border-color: #2c85c5;
+    width: 195px;
+    height: 45px;
+    margin-top: 10%;
+}
+.card1{
+    border: 3px solid #333;
+    width: 300px;
+    height: 501px;
+    margin: 10px;
+    background-color: #b18c5a;
+    
+
+}
+.card2{
+    border: 3px solid #333;
+    width: 300px;
+    height: 501px;
+    margin: 10px;
+    margin: 10px;
+    background-color: #b18c5a;
+
+
+}
+.card3{
+    border: 3px solid #333;
+    width: 300px;
+    height: 501px;
+    margin: 10px;
+    background-color: #b18c5a;
+
+}
+.flexbox-item1{
+    border: 3px solid #333;
+    width: 36px;
+    height: 42px;
+    margin: 10px;
+    background-color: #b18c5a;
+}
+.flexbox-item2{
+    border: 3px solid #333;
+    width: 200px;
+    margin: 10px;
+}
+
+.completedbuilds {
+    height: 1071px;
+    text-align: center;
+    background-color: #F4F4F3;
+    padding: 3rem 0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.builds{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    grid-auto-flow: column;
+    grid-auto-columns: 285px;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    text-align: left;
+    margin-right: 10%;
+}
+.builds .featured-build {
+    width: 611px;
+    height: 444px;
+    display: grid;
+    grid-auto-flow: row;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    background-color: #e26723;
+    padding: 0.5rem;
+    grid-auto-columns: 285px;
+ }
+ .builds .notfeaured{
+    width: 290px;
+    height: 444px;
+    display: grid;
+ }
+ .build .build-target
+ {
+     width: 290px;
+     height: 428px;
+     
+ }
+ .buttones
+ {
+    background-color: #2c85c5;
+    color: #ffffff;
+    border-color: #2c85c5;
+    width: 195px;
+    height: 45px;
+    margin-top: 70%;
+ }
+.footer {
+    height: 533px;
+    text-align: center;
+    padding: 3rem 0;
+    background-color: #191B2B;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
